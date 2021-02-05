@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/card_view"
+    android:layout_width="match_parent"
+    android:layout_height="100dp"
+    android:layout_marginBottom="8dp"
+    android:layout_marginLeft="16dp"
+    android:layout_marginRight="16dp"
+    cardBackgroundColor="@color/dark_gray"
+    android:foreground="?attr/selectableItemBackground"
+    android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        >
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:padding="3dp"
+            android:scaleType="fitXY"
+            android:layout_below="@+id/test_produkti"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+
+            />
+
+        <TextView
+            android:id="@+id/test_produkti"
+            android:text="Pershkrimi"
+            android:padding="3dp"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textSize="17dip"
+            android:textStyle="bold"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:textColor="#363636"
+            />
+
+        <TextView
+            android:id="@+id/test_kodi"
+            android:text="Kodi"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/test_produkti"
+            android:layout_toRightOf="@+id/imageView"
+            android:ellipsize="end"
+            android:gravity="left"
+            android:textSize="15dip"
+            android:padding="3dp"
+            android:layout_marginTop="8dip"
+            android:textColor="#595757"
+
+            />
+
+        <TextView
+            android:id="@+id/test_cmimi"
+            android:text="Cmimi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="right"
+            android:textSize="15dip"
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginRight="39dp"
+            android:layout_marginEnd="39dp"
+            android:textColor="#595757"
+            />
+    </RelativeLayout>
+</android.support.v7.widget.CardView>

@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">FirstProject</string>
+    <string name="name_ac1"> Produktet</string>
+    <string name="name_ac2">Shto Produkt</string>
+    <string name="name_ac3">Lista e Produkteve</string>
+    <string name="action_settings">Settings</string>
+    <string name="edit_message">stringvalue</string>
+    <string name="next"></string>
+    <string name="test_produkti"></string>
+    <string name="test_kodi"></string>
+    <string name="test_cmimi"></string>
+    <string name="failed_create_photo">failedPhoto</string>
+    <string name="search_hint">searchhint</string>
+    <string name="menu_search">Search</string>
+    <string name="plusButton" />
+    <string name="hint_emerProdukti">Pershkrimi</string>
+    <string name="hint_kodProdukti">Kodi i Produktit</string>
+    <string name="hint_cmimProdukti">Cmimi</string>
+</resources>

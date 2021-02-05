@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.Toolbar
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/toolbar_bottom"
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    app:contentInsetStart="0dp"
+    app:contentInsetLeft="0dp"
+    app:theme="@style/ThemeOverlay.AppCompat.Light"
+    app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+    android:gravity="center"
+    android:layout_marginLeft="0dp"
+    android:background="?attr/colorPrimary"
+    android:layout_alignParentBottom="true"
+    android:minHeight="45dp">
+
+
+
+<LinearLayout
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="?android:attr/borderlessButtonStyle"
+        android:drawableTop="@drawable/ic_action_image_camera_alt"
+        android:textStyle="bold"
+        android:background="@drawable/bottom_menu"
+        android:textColor="#ffffffff"
+        android:text="Foto"
+        android:id="@+id/btn_imazh"
+        android:onClick="onClickImazh"
+        android:layout_weight="0.5"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        style="?android:attr/borderlessButtonStyle"
+        android:textStyle="bold"
+        android:background="@drawable/bottom_menu"
+        android:textColor="#ffffffff"
+        android:text="Shto"
+        android:onClick="onClickShto"
+
+        android:id="@+id/btn_shto"
+        android:layout_weight="0.5"
+        android:drawableTop="@drawable/ic_action_content_add_box"
+      />
+</LinearLayout>
+
+</android.support.v7.widget.Toolbar>
+
+
+
+
+
